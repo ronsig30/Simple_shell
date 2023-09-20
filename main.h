@@ -21,8 +21,8 @@ int new_process(char **args);
 char *read_stream(void);
 
 int execute_cd(char **args);
-int execute_exit();
-int execute_env();
-int execute_help();
+int execute_exit(void);
+int execute_env(void);
+int execute_help(void);
 
 #endif
